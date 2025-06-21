@@ -14,15 +14,15 @@
 }
 @font-face {
   font-family: 'MiSans';
-  src: url('./fonts/MiSans-Regular.woff2') format('woff2'),
-       url('./fonts/MiSans-Regular.woff') format('woff');
+  src: url('./MiSans-Regular.woff2') format('woff2'),
+       url('./MiSans-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 body {
   @apply bg-background-light dark:bg-background-dark text-gray-800;
-  font-family: MiSans, "Source Han Serif CN VF" !important;
+  font-family: 'MiSans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
 
 textarea:focus {
